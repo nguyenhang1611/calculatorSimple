@@ -1,4 +1,4 @@
-# calculator: how to run on local machine (MAC os)
+# calculatorSimple: how to run on local machine (MAC os)
 1. Install Java 11
 2. Install ANDROID SDK (Studio)
 3. Install Appium Desktop
@@ -18,7 +18,7 @@
  
 ```
 4. Clone code to local machine and run:
-	(1) Clone code from Github. Link: https://github.com/nguyenhang1611/Demo.git
+	(1) Clone code from Github. Link: https://github.com/nguyenhang1611/calculatorSimple.git
 	(2) Start Appium Server
 	(3) Run "calculator/src/test/resources/mobile-debug.apk" in Android Studio with device "Galavy Nexus API 29 (Android 10, API 29)" 
 	(4) Open terminal => Check device name on local machine: adb devices
@@ -28,7 +28,7 @@
 
 ```
 
-# Login DEMO: how to run on Jenkins
+# calculatorSimple: how to run on Jenkins
 1. Install Jenkins
 2. Install Plugin, Config Global Tools
 3. Create and Config Jenkins Job
@@ -52,7 +52,7 @@
 	- Create Job: "New Item" => Input project name is "Maven Project" => Select "Maven Project" => OK
 	- Config Job: Click menu icon at the right side of "Maven Project" => Select "Configure":
 	  (1) Click "Source Code Management" Tab => Select "Git" => Setting:
-	  Repository URL: https://github.com/nguyenhang1611/Demo.git
+	  Repository URL: hhttps://github.com/nguyenhang1611/calculatorSimple.git
 	  Branch Specifier (blank for 'any'): */master
 	  (2) Click "Build" Tab => Setting:
 	  Root POM: pom.xml
